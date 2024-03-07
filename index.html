@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Travel Website</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/cb3d79c47f.js" crossorigin="anonymous"></script>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+  <!-- Google Fonts -->
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-light" id="navbar">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="logo.png"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#packages">Packages</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#services">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#book">Book</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <section class="home">
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="11.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h1 style="color: green; font-family: 'Roboto Slab', serif; text-shadow: 1px 1px 1px white; font-size: 70px;  font-weight: bold; ">Explore Pakistan</h1>
+            <p style="font-family: 'Roboto Slab', serif; font-size: 20px;  font-weight: bold; ">Experience the breathtaking landscapes from north to south.</p>
+            <button type="button" class="btn btn-light btn-lg">Book Now</button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="33.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h1 style="color: green; font-family: 'Roboto Slab', serif; text-shadow: 1px 1px 1px white; font-size: 70px;  font-weight: bold; ">Explore Pakistan</h1>
+            <p style="font-family: 'Roboto Slab', serif; font-size: 20px;  font-weight: bold; ">Relax on pristine beaches along the Arabian Sea.</p>
+            <button type="button" class="btn btn-light btn-lg">Book Now</button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="22.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h1 style="color: green; font-family: 'Roboto Slab', serif; text-shadow: 1px 1px 1px white; font-size: 70px;  font-weight: bold; ">Explore Pakistan</h1>
+            <p style="font-family: 'Roboto Slab', serif; font-size: 20px;  font-weight: bold; ">Create lifelong memories in the land of the pure.</p>
+            <button type="button" class="btn btn-light btn-lg">Book Now</button>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+
+  <section class="packages" id="packages">
+    <div class="container">
+
+      <div class="main-txt">
+        <h1>Packages</h1>
+      </div>
+
+      <div class="row" style="margin-top: 30px;">
+
+        <div class="col-md-4 py-3 py-md-0">
+
+          <div class="card">
+            <img src="sawat.jpg" alt="">
+            <div class="card-body">
+              <h3>Sawat</h3>
+              <h6>Price: <strong>Rs. 50000</strong></h6>
+              <a href="#book">Book Now</a>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-md-4 py-3 py-md-0">
+
+          <div class="card">
+            <img src="hunza.jpg" alt="">
+            <div class="card-body">
+              <h3>Hunza</h3>
+              <h6>Price: <strong>Rs. 50000</strong></h6>
+              <a href="#book">Book Now</a>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-md-4 py-3 py-md-0">
+
+          <div class="card">
+            <img src="kashmir.jpg" alt="">
+            <div class="card-body">
+              <h3>Azad Kashmir</h3>
+              <h6>Price: <strong>Rs. 50000</strong></h6>
+              <a href="#book">Book Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="services" id="services">
+    <div class="container">
+
+      <div class="main-txt">
+        <h1><span>S</span>ervices</h1>
+      </div>
+
+      <div class="row" style="margin-top: 30px;">
+
+        <div class="col-md-4 py-3 py-md-0">
+
+          <div class="card">
+            <i class="fas fa-hotel"></i>
+            <div class="card-body">
+              <h3>Affordable Hotel</h3>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-md-4 py-3 py-md-0">
+
+          <div class="card">
+            <i class="fas fa-utensils"></i>
+            <div class="card-body">
+              <h3>Food & Drinks</h3>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-md-4 py-3 py-md-0">
+
+          <div class="card">
+            <i class="fas fa-bullhorn"></i>
+            <div class="card-body">
+              <h3>Safty Guide</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <section class="book" id="book">
+        <div class="container">
+
+          <div class="main-text">
+            <h1>Book</h1>
+          </div>
+
+          <div class="row">
+
+            <div class="col-md-6 py-3 py-md-0">
+              <div class="card">
+                <img src="pak.jpg" alt="">
+              </div>
+            </div>
+
+            <div class="col-md-6 py-2 py-md-0">
+              <form action="#">
+                <input type="text" class="form-control" name="full_name" placeholder="Name" required><br><br>
+                <input type="email" class="form-control" name="email" placeholder="Email" required><br><br>
+                <label for="date">Tour Date:</label><br>
+                <input type="date" class="form-control" name="date" placeholder="Tour Date" required><br><br>
+                <input type="number" class="form-control" name="participants" min="1"
+                  placeholder="Duration" required><br><br>
+                <input type="number" class="form-control" name="participants" min="1"
+                  placeholder="Number of Participants" required><br><br>
+                <input type="submit" value="Book Now" class="submit" required>
+              </form>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <footer id="footer">
+        <img src="logo.png"></a>
+        <p> Explore, Dream, Travel!</p>
+        <div class="social-links">
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-youtube"></i>
+        </div>
+        <div class="credit">
+          <p>Designed By Rameesha Qadir</p>
+        </div>
+        <div class="copyright">
+          <p>&copy; All Rights Reserved</p>
+        </div>
+      </footer>
+
+
+
+
+    </div>
+  </section>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+    integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
